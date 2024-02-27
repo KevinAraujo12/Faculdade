@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+}
+
+.tamanho-da-div {
+    width: 85%;
+    margin-right: 50px;
+}
+
+.mt {
+    margin-top: 20px;
+}
+.ol-das-manobras {
+    margin-left: 120px;
+}
+.das-noticias {
+    margin-right: 20px;
+}
+#letradireita {
+    width: 50%;
+    text-align: right;
+}
+.teste10{
+    text-align: center;
+}
+.divDireita {
+    margin-left: 80px;
+}

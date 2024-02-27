@@ -1,0 +1,64 @@
+<!-- 
+
+ Exercício 3: Cadastro de Usuário
+Elabore um formulário para cadastro de usuário com os campos:
+-- Nome (campo de texto)
+-- Email (campo de texto)
+-- Senha (campo de senha)
+-- Confirmação de Senha (campo de senha)
+
+Exercício 4: Escolha de Gênero
+Utilize um <select> para criar um formulário que permita aos usuários escolher seu
+gênero. Inclua as opções:
+
+-- Masculino
+-- Feminino 
+
+-->
+
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <link rel="stylesheet" href="Att.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <form>
+        <div class="divCenter">
+            <div id="headerr">
+                <h2 id="top">Cadastro de Usuário</h2>
+            </div>
+            <div class="divs">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="name">
+            </div>
+            <div class="divs">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" > 
+            </div>
+            <div class="divs">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha"> 
+            </div>
+            <div class="divs">
+                <label for="senha2">Confirmar senha:</label>
+                <input type="password" id="senha2" name="senha2" >
+            </div>
+            <div class="divs">
+                <label for="senha">Gênero:</label>
+                <select name="sexualidade" id="sexualidade">
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                    <option value="F">Igor</option>
+                </select>
+            </div>
+            <div class="buttons">
+                <button>Cancelar</button>
+                <button id="buttonEnviar">Enviar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

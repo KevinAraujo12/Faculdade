@@ -1,0 +1,47 @@
+.divCenter{
+    border-radius: 10px;
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    top: 50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -200px;
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:darkcyan;
+}
+#top {
+    text-align: center;
+}
+#headerr {
+    border-radius: 10px 10px 0px 0px ;
+    margin-top: -20px;
+    background-color: rgb(88, 125, 119);
+    height: 30px;
+}
+.divs {
+    display:grid;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.divs label {
+    text-align: center;
+}
+button {
+    background-color:rgb(88, 125, 119);
+    border: 0px;
+    width: 100px;
+    height: 25px;
+}
+.buttons {
+    margin-left: 10%;
+     margin-top: 5%;
+}
+#buttonEnviar {
+    margin-left: 32%;
+}

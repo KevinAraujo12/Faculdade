@@ -1,0 +1,51 @@
+<!-- Exercício 1: Construção de Formulário: 
+Crie um Formulário de Contato:
+Inclua campos para Nome, Email e Mensagem.
+Estilização (Opcional):
+Experimente adicionar estilos CSS para tornar os formulários visualmente atraentes e
+amigáveis.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Att.css">
+     
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Construção do Formulário</title>
+    </head>
+    <body id="fecharBody">
+        <form action="/enviar" method="post">
+
+            <!-- Fechar formulario -->
+            <button onclick="fecharFormulario()">X</button>
+
+            <h2>Formulário</h2>
+            <div class="div3">
+                <label for="name">Nome:</label>
+                <input placeholder="Digite seu nome:" type="text" id="nome" name="nome" class="input1" width="100%">
+            </div>
+            <div class="div1">
+                <label  for="Email">Email:</label>
+                <input id="labelEmail" placeholder="Digite seu Email:" type="email" id="Email" name="Email" class="input3">
+            </div>
+            <div class="div2">
+                <label  for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite sua Mensagem:" rows="4"></textarea>
+            </div>
+            <div>
+                <button id="botao" onclick="modalMostrar()">Enviar</button>
+            </div>
+        </form>
+
+        <!-- Modal -->
+        <div class="modal">
+            <a href="">X</a>
+            <h2>Parabens voce enviou seu formulario!!!</h2>
+        </div>
+
+    </body>
+    <script type="text/javascript" src="Att.js"></script>
+    
+</html>
