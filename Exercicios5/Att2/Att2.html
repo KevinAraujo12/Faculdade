@@ -1,0 +1,39 @@
+<!--
+    
+Exercício 5: Pesquisa de Satisfação
+Crie um formulário de pesquisa de satisfação com perguntas sobre a experiência do
+usuário. Inclua tipos de entrada diferentes, como caixas de seleção e botões de rádio.
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="Att2.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação</title>
+</head>
+<body>
+    <form>
+        <h2>Nos diga como foi a sua experiência com a nossa pagina.</h2>
+        <div>
+            <input class="inputcheck" type="checkbox" name="bom"> <label for="bom">Muito bom</label>
+            <input class="inputcheck" type="checkbox" name="bom"> <label for="bom">Bom</label>
+            <input class="inputcheck" type="checkbox" name="bom"> <label for="bom">Razoável</label>
+            <input class="inputcheck" type="checkbox" name="bom"> <label for="bom">Ruim</label>
+            <input class="inputcheck" type="checkbox" name="bom"> <label for="bom">Muito ruim</label>
+        </div>
+        <div id="h2top">
+            <div><label for="mensagem">Nos conte como foi sua experiência:</label></div>
+            <div><textarea name="mensagem" id="mensagem" ></textarea></div>
+        </div>
+    </form>
+    <div>
+        <a href="/Exercicios5/Att.html"><button>Cancelar</button></a>
+        <button>Enviar</button>
+     </div>
+</body>
+</html>
