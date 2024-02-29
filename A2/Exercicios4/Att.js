@@ -12,6 +12,7 @@ function fecharFormulario() {
 }
 
 function modalMostrar() {
+    e.eventdef
     document.querySelector(".modal").style.display = "block";
 }
 

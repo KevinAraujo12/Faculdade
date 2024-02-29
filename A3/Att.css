@@ -1,0 +1,116 @@
+/*  Exercicios 1 */ 
+p {
+    color: greem;
+    font-size: 20px;
+}
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+} 
+ /*  Exercicios 11 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: green;
+}
+/*  Exercicios 2 */ 
+h1{
+    color: red;
+    font-size: 30px;
+}
+h2{
+    color: blue;
+    font-size: 24px;
+}
+h3 {
+    color:green;
+    font-size: 20px;
+}
+h4 {
+    color: purple;
+    font-size: 18px;
+}
+h5 {
+    color: orange;
+    font-size: 16px;
+}
+h6 {
+    color: brown;
+    font-size: 14px;
+}
+/*  Exercicios 3 */ 
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    color: #e74c3c;
+}
+/*  Exercicios 4 */ 
+li {
+    color:#008000;
+    margin: 10px;
+}
+/*  Exercicios 5 */ 
+input {
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+textarea {
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+/*  Exercicios 6 */ 
+#estudando{
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+#estudando:hover {
+    background-color: #27ae60;
+}
+/*  Exercicios 7 */ 
+img {
+    border: 2px solid #3498db;
+    box-shadow: 2px 2px 2px #888888;
+}
+/*  Exercicios 8 */
+#divs{
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 15px;
+} 
+/*  Exercicios 9 */
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+.largura {
+    width: 100%;
+    margin-bottom: 15px;
+}
+/*  Exercicios 10 */
+.liclass {
+    background-color: black;
+    color: white;
+    width: 10%;
+}
+.liclass:hover {
+    background-color: #555;
+}
+/*  Exercicios 11 */
